@@ -1,0 +1,41 @@
+.call-to-action{
+        background-image: url("../images/banner/hero_ipadair.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 73vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .container{
+            :where(.title, .sub-title) {
+                color: white;
+            }
+            align-self: center;
+            .highlight{
+                //   font-size: 6rem;
+                //   line-height: 1.5;
+                  background: -webkit-linear-gradient(#6a53d7, #c9c0f5);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  font-family: 'Pacifico',
+                  cursive;
+            }
+            .sub-title {
+                margin-bottom: 1rem;
+            }
+            .links {
+                color: #06c;
+                font-size: 2.1rem;
+                font-weight: 400;
+
+                .link::after {
+                    content: " \3e";
+                }
+
+                .link:nth-child(2) {
+                    margin-left: 3.5rem;
+                }
+        }
+        }
+}
