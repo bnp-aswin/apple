@@ -1,0 +1,22 @@
+:root{
+    font-size: 62.5%;
+}
+*{
+    all:unset;
+    display: revert;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'SF Pro Display',
+    sans-serif;
+    word-spacing: .1rem;
+}
+:any-link{
+    cursor: pointer;
+}
+.container{
+    max-width: 65%;
+    margin: 0 auto;
+}
