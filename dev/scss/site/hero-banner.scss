@@ -1,0 +1,46 @@
+.hero-banner{
+    background-image: url("../images/banner/hero_iphone13pro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 78vh;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    .content{
+        text-align: center;
+        padding: 6.7vh 0 56vh 0;
+        .new{
+            font-size: 2.1rem;
+            font-weight: 600;
+        }
+        .title{
+            .se {
+                border: .4rem solid black;
+                border-radius: 1.2rem;
+                font-size: 2.5rem;
+                padding: .5rem .5rem;
+                vertical-align: middle;
+                display: inline-block;
+            }
+        }
+        .sub-title {
+            margin: 1rem 0;
+        }
+        .links{
+            color: #06c;
+            font-size: 2.1rem;
+            font-weight: 400;
+
+            .link::after{
+                content: " \3e";
+            }
+            .link:nth-child(2){
+                margin-left: 3.5rem;
+            }
+        }
+    }
+}
+.se-banner{
+    background-image: url("../images/banner/hero_iphonese.jpg");
+}
