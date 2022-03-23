@@ -1,0 +1,79 @@
+.product-highlight{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3, 1fr);
+    gap:1rem;
+
+    .product{
+        display: grid;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 61.2vh;
+        .content{
+            margin-top: 6.3vh;
+            align-self: start;
+            text-align: center;
+            .sub-title {
+                margin: 1.6rem 0 2rem 0;
+            }
+
+            .links {
+                color: #06c;
+                font-size: 1.7rem;
+                font-weight: 400;
+
+                .link::after {
+                    content: " \3e";
+                }
+
+                .link:nth-child(2) {
+                    margin-left: 2.8rem;
+                }
+            }
+        }
+    }
+    .studio-display{
+        background-image: url("../images/products/promo_studiodisplay.jpg");
+        
+    }
+    .mac-studio {
+        background-image: url("../images/products/promo_macstudio.jpg");
+
+    }
+    .iphone13{
+        background-image: url("../images/products/promo_iphone13.jpg");
+
+    }
+    .iwatch{
+        background-image: url("../images/products/promo_watch_lte.jpg");
+        .highlighted{
+            color: #d95d61;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            font-weight: 600;
+            letter-spacing: .1rem;
+
+        }
+    }
+    .airpod{
+        background-image: url("../images/products/tile_airpods.jpg");
+        .content {
+            margin-bottom: 6.3vh;
+            align-self: end;
+        }
+    }
+    .itv{
+        background-image: url("../images/products/tile__cauw.jpg");
+        .content {
+            color: white;
+            margin-bottom: 6.3vh;
+            align-self: end;
+            .links {
+                color: white;
+            }
+        }
+
+    }
+}
