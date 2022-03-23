@@ -16,6 +16,12 @@ body{
 :any-link{
     cursor: pointer;
 }
+.link-style{
+    color: #0066CC;
+    &:hover{
+        text-decoration: underline;
+    }
+}
 .container{
     max-width: 65%;
     margin: 0 auto;
@@ -41,4 +47,8 @@ h3,h5{
 }
 h1,h2,h3,h4,h5,h6{
     line-height: 1;
+}
+hr{
+    border-bottom: .1rem solid #d2d2d7;
+    margin: .8rem 0;
 }
